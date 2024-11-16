@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "answer": true,
+    "resp": 12,
+    "heart_rate": 100,
+    "blush": 6,
+    "dilation": 6
+  },
+  {
+    "id": 2,
+    "answer": true,
+    "resp": 12,
+    "heart_rate": 100,
+    "blush": 6,
+    "dilation": 6
+  },
+  {
+    "id": 3,
+    "answer": false,
+    "resp": 12,
+    "heart_rate": 60,
+    "blush": 0,
+    "dilation": 2
+  },
+  {
+    "id": 4,
+    "answer": false,
+    "resp": 13,
+    "heart_rate": 65,
+    "blush": 2,
+    "dilation": 3
+  },
+  {
+    "id": 5,
+    "answer": false,
+    "resp": 14,
+    "heart_rate": 70,
+    "blush": 0,
+    "dilation": 3
+  },
+  {
+    "id": 6,
+    "answer": false,
+    "resp": 19,
+    "heart_rate": 63,
+    "blush": 2,
+    "dilation": 3
+  },
+  {
+    "id": 7,
+    "answer": false,
+    "resp": 12,
+    "heart_rate": 60,
+    "blush": 0,
+    "dilation": 2
+  },
+  {
+    "id": 8,
+    "answer": false,
+    "resp": 15,
+    "heart_rate": 64,
+    "blush": 2,
+    "dilation": 3
+  },
+  {
+    "id": 9,
+    "answer": false,
+    "resp": 12,
+    "heart_rate": 60,
+    "blush": 0,
+    "dilation": 2
+  },
+  {
+    "id": 10,
+    "answer": false,
+    "resp": 13,
+    "heart_rate": 60,
+    "blush": 2,
+    "dilation": 7
+  }
+]

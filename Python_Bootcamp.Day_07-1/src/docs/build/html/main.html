@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Описание проекта и запуска &#8212; документация тест Войт-Кампфа 0.1</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=4f649999" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=039e1c02" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js?v=8e37cb66"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=4825356b"></script>
+    <script src="_static/translations.js?v=29b1f277"></script>
+    <link rel="index" title="Алфавитный указатель" href="genindex.html" />
+    <link rel="search" title="Поиск" href="search.html" />
+    <link rel="prev" title="Welcome to тест Войт-Кампфа’s documentation!" href="index.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="id1">
+<h1>Описание проекта и запуска<a class="headerlink" href="#id1" title="Permalink to this heading">¶</a></h1>
+<section id="id2">
+<h2>Настройка окружения:<a class="headerlink" href="#id2" title="Permalink to this heading">¶</a></h2>
+<ul>
+<li><p>Python 3.8 или выше</p></li>
+<li><p>установить необходимые пакеты для данного проекта из <cite>requiremenrs.txt</cite> командой:</p>
+<blockquote>
+<div><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>src/requirements.txt
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+</ul>
+<section id="id3">
+<h3>Своё виртуальное окружение (не обязательно)<a class="headerlink" href="#id3" title="Permalink to this heading">¶</a></h3>
+<p>Можно установить виртуальное окружение pyhon, если не установлено и работать в нем(делалось на wsl (ubuntu 20.04)):
+установить виртуальное окружение:</p>
+<blockquote>
+<div><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>python3-venv
+</pre></div>
+</div>
+</div></blockquote>
+<dl>
+<dt>Проверим, что модуль установился и готов к использованию:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python3<span class="w"> </span>-m<span class="w"> </span>venv<span class="w"> </span>--help
+</pre></div>
+</div>
+</dd>
+<dt>Создать виртуальное окружение можно командой</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python3<span class="w"> </span>-m<span class="w"> </span>venv<span class="w"> </span>my_venv
+</pre></div>
+</div>
+</dd>
+</dl>
+<p>Приведенная выше команда создает каталог с именем «my_venv» (а также родительские каталоги, которые ещё не существуют), содержащий менеджер пакетов pip, интерпретатор, скрипты и библиотеки.</p>
+<p>Виртуальное окружение создано. Для начала работы с окружением нужно его активировать.</p>
+<dl>
+<dt>перед активацией нужно перейти в папку <cite>my_venv</cite>. Чтобы начать использовать эту виртуальную среду, необходимо активировать её, запустив скрипт под названием activate:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">source</span><span class="w"> </span>./bin/activate
+</pre></div>
+</div>
+</dd>
+</dl>
+<p>после этого в командной строке появится в начале в скобках название виртуального окружения.
+Можно проверить версию Python:</p>
+<blockquote>
+<div><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python<span class="w"> </span>--version
+</pre></div>
+</div>
+</div></blockquote>
+<dl>
+<dt>А также посмотреть список установленных в окружении библиотек.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip<span class="w"> </span>list
+</pre></div>
+</div>
+</dd>
+<dt>Чтобы выйти из виртуального окружения, необходимо ввести команду deactivate.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>deactivate
+</pre></div>
+</div>
+</dd>
+<dt>установить необходимые пакеты для данного проекта из <cite>requiremenrs.txt</cite> командой находясь в папке <cite>src/</cite>:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.txt
+</pre></div>
+</div>
+</dd>
+</dl>
+<p>и можно приступать к проверке проекта.</p>
+</section>
+</section>
+<section id="ex00-ex01">
+<h2>EX00 и EX01<a class="headerlink" href="#ex00-ex01" title="Permalink to this heading">¶</a></h2>
+<p>Здесь два задания объеденены в одно.
+Здесь реализован тест Войт-Кампфа
+Это эмпатический тест, основанный на вопросах и ответных реакциях, может определить кто вы: человек или репликант
+Всего в тесте 10 вопросов. Твоя реакция так же имеет значение,
+поэтому после каждого ответа на вопрос введите реакцию своего организма в терминал:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>частота дыхания</p></li>
+<li><p>частота сердцебиения</p></li>
+<li><p>степень твоего покраснения</p></li>
+<li><p>размер зрачков</p></li>
+</ul>
+</div></blockquote>
+<p>Тест реализован в консольном окне (логика подсчетов результатов отделена в отдельный файл <cite>logic.py</cite>).</p>
+<dl>
+<dt>Для запуска теста нужно запустить скрипт и следовать интсрукции в терминале:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python<span class="w"> </span>main.py
+</pre></div>
+</div>
+</dd>
+</dl>
+<p>в папке <cite>/tests</cite> находятся тесты. После прохождения теста и получения файла с ответами (<cite>answers.json</cite>)
+можно их запустить с использованием <cite>pytest</cite>
+Для этого нужно зайти в папку <cite>tests</cite> и выполнить комманду</p>
+<blockquote>
+<div><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pytest<span class="w"> </span>test_vf.py
+</pre></div>
+</div>
+</div></blockquote>
+</section>
+<section id="ex02">
+<h2>EX02<a class="headerlink" href="#ex02" title="Permalink to this heading">¶</a></h2>
+<p>Документация сгенерирована с помощью <cite>sphinx</cite>
+структура документации была сгенерированна</p>
+<blockquote>
+<div><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sphinx-quickstart
+</pre></div>
+</div>
+</div></blockquote>
+<p>После этого программа задает ряд вопросовю отвечаем на них и поучаем первичную структуру</p>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">тест Войт-Кампфа</a></h1>
+
+
+
+
+
+
+
+
+<h3>Навигация</h3>
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Описание проекта и запуска</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id2">Настройка окружения:</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ex00-ex01">EX00 и EX01</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ex02">EX02</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="предыдущая глава">Welcome to тест Войт-Кампфа’s documentation!</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Быстрый поиск</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Искать" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2024, Nikolay Davydov.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 7.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.13</a>
+      
+      |
+      <a href="_sources/main.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
