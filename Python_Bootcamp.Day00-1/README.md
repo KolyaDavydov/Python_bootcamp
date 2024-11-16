@@ -255,4 +255,3 @@ It is highly recommended to study Argparse](https://docs.python.org/3/howto/argp
 line arguments. It helps to avoid ugly errors on non-valid inputs and generate helpful tips
 for the future users of your CLI.   
 
-**Please leave your feedback [here](https://docs.google.com/forms/d/e/1FAIpQLSelWnZ5_63N2hc_tAHyU3Hmzt7BG7ZiAB5vmA9axcA_ThiPwA/viewform?usp=sf_link)**

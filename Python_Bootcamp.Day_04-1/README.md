@@ -240,6 +240,3 @@ And then she will definitely find her way out of this place. After all, she was 
 [Basic documentation on Python generators](https://wiki.python.org/moin/Generators)
 
 [Wiki on lazy evaluation](https://en.wikipedia.org/wiki/Lazy_evaluation)
-
-
-**Please leave your feedback [here](https://forms.gle/rnS3JCt86CJyN39B6)**

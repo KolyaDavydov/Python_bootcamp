@@ -214,5 +214,3 @@ and then an additional migration with adding the optional "speed" field to the S
 [Pydantic Models](https://pydantic-docs.helpmanual.io/usage/models/)
 [SQLAlchemy](https://docs.sqlalchemy.org/en/14/orm/tutorial.html)
 [Alembic](https://alembic.sqlalchemy.org/en/latest/tutorial.html)
-
-**Please leave your feedback [here](https://forms.gle/xEbk5Q1jZjn3hqci6)**

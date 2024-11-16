@@ -249,6 +249,4 @@ one of the most interesting things to look at in Python OOP is `super()`, you ca
 [here, for example](https://realpython.com/python-super/).
 
 Another thing to read about is a "constructor", which in Python is complex and includes at least 
-two methods - `__new__` and `__init__`. Here is [some more information](https://medium.com/thedevproject/new-vs-init-in-python-a-most-known-resource-7beb538dc3b) on topic.   
-
-**Please leave your feedback [here](https://forms.gle/oMEJnwqt5pkLydYy5)**
+two methods - `__new__` and `__init__`. Here is [some more information](https://medium.com/thedevproject/new-vs-init-in-python-a-most-known-resource-7beb538dc3b) on topic. 

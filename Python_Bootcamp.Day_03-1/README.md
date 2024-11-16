@@ -207,6 +207,4 @@ introduce a specific YAML format for this task, that's why an existing standard 
 Even though it requires a bit of time and effort to study, it can be really helpful to know the 
 very basics of Ansible for your future job or just daily automation tasks.
 
-By the way, just in case you're curious, Ansible [does support Windows](https://docs.ansible.com/ansible/latest/user_guide/windows_usage.html) as well!    
-
-**Please leave your feedback [here](https://forms.gle/dfKBUNyBKs9mvcWYA)**
+By the way, just in case you're curious, Ansible [does support Windows](https://docs.ansible.com/ansible/latest/user_guide/windows_usage.html) as well!

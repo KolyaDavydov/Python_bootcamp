@@ -160,5 +160,3 @@ Also, Python has some immutable object types out of the box. e.g. [frozensets](h
 
 As an additional cool feature, Python has a built-in way of modifying the behaviour of functions without directly modifying their code.
 It is called a `decorator` and is just a special syntax for a function that accepts a function as an argument and returns a function. You can read [this article](https://realpython.com/primer-on-python-decorators/) for more details and examples.  
-
-**Please leave your feedback [here](https://docs.google.com/forms/d/e/1FAIpQLSc9IEAPVeHKnBGZKmG6cZOaQwPX-W0vwa3-mjjm4LsBs0jr3g/viewform?usp=sf_link)**

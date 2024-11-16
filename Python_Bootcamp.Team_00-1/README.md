@@ -198,6 +198,3 @@ You can get additional score in this task if your script optionally can generate
 file, but also a `wiki_graph.html` page which will show an interactive visualization of the same
 graph. You can use libraries like [Altair](https://altair-viz.github.io/) or [Bokeh](https://docs.bokeh.org/en/latest/index.html)
 to do that.
-
-
-**Please leave your feedback [here](https://forms.gle/ZmAjM5qJ3uEnADen6)**

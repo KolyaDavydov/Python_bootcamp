@@ -208,5 +208,3 @@ even though in production code that would be probably one of the preferred ways.
 
 BONUS: write a performance test in file `test_mul_perf.py` comparing basic pure Python
 implementation with your Cython one. It should be a lot faster.
-
-**Please leave your feedback [here](https://forms.gle/pAiwZa3HLZJcLSpC9)**

@@ -171,5 +171,3 @@ peer's side if all the requirements are installed.
 [Python Sphinx Tutorial](https://www.sphinx-doc.org/en/master/tutorial/index.html)
 [Writing Docstrings](https://realpython.com/documenting-python-code/)
 [Sphinx Autodoc](https://www.sphinx-doc.org/en/master/usage/extensions/autodoc.html)
-
-**Please leave your feedback [here](https://forms.gle/YEzd846qsykVaShq8)**

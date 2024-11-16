@@ -227,5 +227,3 @@ a modified EX01 server code called "server_cached.py"
 
 BONUS: Update your code and make another coroutine that will cleanup the entries in cache after
 some configurable timeout
-
-**Please leave your feedback [here](https://forms.gle/TV4Nogi9SLYpy88y6)**
